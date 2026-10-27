@@ -1,0 +1,8 @@
+/* Design tokens: "The Descent". Light at the surface, darker with depth. */
+:root{
+  --surface:#e8f5f2; --shallow:#b9dde0; --mid:#0f4a5c; --deep:#0a3445; --abyss:#031219;
+  --ink:#06202b; --buoy:#ff6a2b; --text-on-dark:#eaf6f5;
+  --font-display:"Instrument Serif",Georgia,serif; --font-body:"Hanken Grotesk",system-ui,sans-serif;
+  --step-0:1.0625rem; --step-2:2.125rem; --step-4:clamp(3rem,9vw,7rem);
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
